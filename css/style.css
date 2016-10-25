@@ -1,0 +1,107 @@
+li {
+  display: inline;
+}
+
+.topphotobox {
+  width: 100%;
+  height: 250px;
+  background-image: url(../images/background.jpeg);
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.topphotobox p {
+  position: relative;
+  top: 50%;
+  transform: translatey(-50%);
+}
+
+.middleboxes {
+  width: 100%;
+  height: 600px;
+  background-color: gray;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+
+.bottomtextbox{
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height:  70px;
+}
+
+/*breakpoint 2*/
+@media (min-width: 479px) and (max-width: 767px){
+  .topphotobox {
+    height: 300px;
+  }
+}
+
+
+/*breakpoint 3*/
+@media (min-width: 768px) and (max-width: 978px) {
+  .topphotobox {
+    height: 300px;
+    }
+
+  .middleboxes {
+    float: left;
+    width: 28%;
+    height: 350px;
+    margin: 2%;
+    }
+
+  .bottomtextbox {
+    width: 300px;
+    height: 200px;
+    float: left;
+    padding: 20px 45px;
+    }
+
+  .footer {
+    clear: both;
+  }
+
+  }
+
+
+/*breakpoint 4*/
+@media (min-width: 979px) {
+  .topphotobox {
+    height: 300px;
+    }
+
+  .middlecontent {
+    margin: 0 auto;
+  }
+
+  .middleboxes {
+    float: left;
+    width: 20%;
+    height: 350px;
+    margin: 1% ;
+    }
+
+  .bottomtextbox {
+    width: 30%;
+    height: 205;
+    float: left;
+    margin: 4%;
+    margin-left: 2px;
+    }
+
+/*had trouble centering this so it's a workaround*/
+    .middlecontent {
+    padding-left: 25%;
+    }
+
+    .footer {
+      clear:both;
+    }
+}
