@@ -24,7 +24,6 @@ li {
   background-color: gray;
   margin-top: 5%;
   margin-bottom: 5%;
-
 }
 
 .bottomtextbox{
@@ -38,11 +37,12 @@ li {
 
 /*breakpoint 2*/
 @media (min-width: 479px) and (max-width: 767px){
+
   .topphotobox {
     height: 300px;
   }
-}
 
+}
 
 /*breakpoint 3*/
 @media (min-width: 768px) and (max-width: 978px) {
